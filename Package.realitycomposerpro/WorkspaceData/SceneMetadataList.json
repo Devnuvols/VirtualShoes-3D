@@ -1,0 +1,141 @@
+{
+  "01B0369C-7F23-46D4-B82F-711E284646F9" : {
+    "objectMetadataList" : [
+      [
+        "01B0369C-7F23-46D4-B82F-711E284646F9",
+        "redimensionar",
+        "SkateShoes"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "01B0369C-7F23-46D4-B82F-711E284646F9",
+        "redimensionar",
+        "leatherShoes",
+        "Meshes"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "01B0369C-7F23-46D4-B82F-711E284646F9",
+        "redimensionar",
+        "WinterShoe"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "01B0369C-7F23-46D4-B82F-711E284646F9",
+        "redimensionar",
+        "leatherShoes_1"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "01B0369C-7F23-46D4-B82F-711E284646F9",
+        "redimensionar",
+        "leatherShoes_1",
+        "Meshes"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "01B0369C-7F23-46D4-B82F-711E284646F9",
+        "redimensionar",
+        "leatherShoes_1",
+        "Materials"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "01B0369C-7F23-46D4-B82F-711E284646F9",
+        "redimensionar",
+        "leatherShoes"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "01B0369C-7F23-46D4-B82F-711E284646F9",
+        "redimensionar",
+        "WinterShoe",
+        "Materials"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "01B0369C-7F23-46D4-B82F-711E284646F9",
+        "redimensionar",
+        "SkateShoes",
+        "Meshes"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "01B0369C-7F23-46D4-B82F-711E284646F9",
+        "redimensionar"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "01B0369C-7F23-46D4-B82F-711E284646F9",
+        "redimensionar",
+        "WinterShoe",
+        "Meshes"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      }
+    ]
+  },
+  "8A75C4AC-6759-4085-B1DE-AC4DC78ED026" : {
+    "objectMetadataList" : [
+      [
+        "8A75C4AC-6759-4085-B1DE-AC4DC78ED026",
+        "Root",
+        "leatherShoes"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "8A75C4AC-6759-4085-B1DE-AC4DC78ED026",
+        "Root"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "8A75C4AC-6759-4085-B1DE-AC4DC78ED026",
+        "Root",
+        "leatherShoes",
+        "Meshes"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      }
+    ]
+  }
+}
