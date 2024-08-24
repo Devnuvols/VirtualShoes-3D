@@ -11,7 +11,7 @@
 def Xform "redimensionar"
 {
     quatf xformOp:orient = (1, 0, 0, 0)
-    float3 xformOp:scale = (1, 1, 1)
+    float3 xformOp:scale = (0.2, 0.2, 0.2)
     float3 xformOp:translate = (0, 0, 0)
     uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
 
@@ -266,41 +266,6 @@ def Xform "redimensionar"
         float3 xformOp:scale = (0.003, 0.003, 0.003)
         float3 xformOp:translate = (4.228799, 0, -0.18930167)
         uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
-    }
-
-    def "leatherShoes_1" (
-        active = true
-        prepend references = @leatherShoes 1.usdz@
-    )
-    {
-        float3 xformOp:scale = (0.001, 0.001, 0.001)
-        float3 xformOp:translate = (-0.5912531, 0, 9.426632)
-        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
-
-        over "Materials"
-        {
-            over "RootNode"
-            {
-                token outputs:mtlx:surface
-                token outputs:realitykit:vertex
-
-                over "pbr_shader"
-                {
-                    normal3f inputs:normal = (0, 0, 1)
-                }
-            }
-        }
-
-        over "Meshes"
-        {
-            over "Sketchfab_model"
-            {
-                quatf xformOp:orient = (0.70710677, -0.70710677, 0, 0)
-                float3 xformOp:scale = (0.059999984, 0.059999984, 0.05999999)
-                float3 xformOp:translate = (55.753284, -0.0000017881392, -59.74185)
-                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
-            }
-        }
     }
 }
 

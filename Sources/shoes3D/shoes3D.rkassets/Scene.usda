@@ -11,13 +11,24 @@
 def Xform "Root"
 {
     reorder nameChildren = ["WoodShoes", "AirJordan", "AirSportShoe", "ArntShoes", "BlueVansShoe", "CanguroShoes", "CanvasShoe", "FemaleShoes", "JapaneseShoesGeta", "MaleShoes", "MoonShoes", "NBSportShoes", "OldManShoes", "ProvocativePinkShoes", "RedHighHeelShoes", "SkateShoes", "WinterShoe", "fashionSportShoe", "leatherShoes", "militaryShoes", "oldFashionSportShoes", "WoodShoes_scene"]
+    float3 xformOp:scale = (0.001, 0.001, 0.001)
+    uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+
     def "AirJordan" (
         active = true
         prepend references = @AirJordan.usdz@
     )
     {
-        float3 xformOp:scale = (0.002, 0.002, 0.002)
+        float3 xformOp:scale = (1, 1, 1)
         uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+
+        over "Meshes"
+        {
+            quatf xformOp:orient = (0.99999994, 0, 0, 0)
+            float3 xformOp:scale = (9.999999, 9.999998, 9.999998)
+            float3 xformOp:translate = (0, 0, 0)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+        }
     }
 
     def "AirSportShoe" (
@@ -29,7 +40,7 @@ def Xform "Root"
     )
     {
         quatf xformOp:orient = (-4.371139e-8, 0, 1, 0)
-        float3 xformOp:scale = (0.006, 0.006, 0.006)
+        float3 xformOp:scale = (2, 1.999999, 1.999999)
         uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
     }
 
@@ -38,7 +49,7 @@ def Xform "Root"
         prepend references = @ArntShoes.usdz@
     )
     {
-        float3 xformOp:scale = (0.03, 0.03, 0.03)
+        float3 xformOp:scale = (9.999999, 9.999999, 9.999999)
         uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
     }
 
@@ -47,8 +58,16 @@ def Xform "Root"
         prepend references = @BlueVansShoe.usdz@
     )
     {
-        float3 xformOp:scale = (0.002, 0.002, 0.002)
+        float3 xformOp:scale = (1, 1, 1)
         uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+
+        over "Meshes"
+        {
+            quatf xformOp:orient = (1, 0, 0, 0)
+            float3 xformOp:scale = (59.999996, 59.999992, 59.99999)
+            float3 xformOp:translate = (0, 0, 0)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+        }
     }
 
     def "CanguroShoes" (
@@ -56,8 +75,16 @@ def Xform "Root"
         prepend references = @CanguroShoes.usdz@
     )
     {
-        float3 xformOp:scale = (0.001, 0.001, 0.001)
+        float3 xformOp:scale = (1, 1, 1)
         uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+
+        over "Meshes"
+        {
+            quatf xformOp:orient = (1, 0, 0, 0)
+            float3 xformOp:scale = (19.999998, 19.999998, 19.999998)
+            float3 xformOp:translate = (0, 0, 0)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+        }
     }
 
     def "CanvasShoe" (
@@ -65,8 +92,19 @@ def Xform "Root"
         prepend references = @CanvasShoe.usdz@
     )
     {
-        float3 xformOp:scale = (0.001, 0.001, 0.001)
+        float3 xformOp:scale = (1, 1, 1)
         uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+
+        over "Meshes"
+        {
+            over "Sketchfab_model"
+            {
+                quatf xformOp:orient = (0.70710677, -0.70710677, 0, 0)
+                float3 xformOp:scale = (0.4990622, 0.4990622, 0.4990622)
+                float3 xformOp:translate = (0, 0, 0)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+            }
+        }
     }
 
     def "FemaleShoes" (
@@ -78,8 +116,16 @@ def Xform "Root"
     )
     {
         quatf xformOp:orient = (0.8962131, 0.11538277, 0.4125236, -0.11538277)
-        float3 xformOp:scale = (0.002, 0.002, 0.002)
+        float3 xformOp:scale = (1, 1, 1)
         uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+
+        over "Meshes"
+        {
+            quatf xformOp:orient = (1, 0, 0, 0)
+            float3 xformOp:scale = (40, 40, 39.999996)
+            float3 xformOp:translate = (0, 0, 0)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+        }
     }
 
     def "JapaneseShoesGeta" (
@@ -91,8 +137,20 @@ def Xform "Root"
     )
     {
         quatf xformOp:orient = (0.9961947, 0, -0.087155744, 0)
-        float3 xformOp:scale = (0.001, 0.001, 0.001)
+        float3 xformOp:scale = (1, 1, 1)
+        float3 xformOp:translate = (0, 0, 0)
         uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+
+        over "Meshes"
+        {
+            over "Sketchfab_model"
+            {
+                quatf xformOp:orient = (0.70710677, -0.70710677, 0, 0)
+                float3 xformOp:scale = (0.21205753, 0.21205752, 0.21205753)
+                float3 xformOp:translate = (0, 0, 0)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+            }
+        }
     }
 
     def "MaleShoes" (
@@ -104,7 +162,7 @@ def Xform "Root"
     )
     {
         quatf xformOp:orient = (0.81915206, 0, 0.5735764, 0)
-        float3 xformOp:scale = (0.003, 0.003, 0.003)
+        float3 xformOp:scale = (1, 1, 1)
         uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
     }
 
@@ -113,7 +171,7 @@ def Xform "Root"
         prepend references = @MoonShoes.usdz@
     )
     {
-        float3 xformOp:scale = (0.02, 0.02, 0.02)
+        float3 xformOp:scale = (9.999999, 9.999999, 9.999999)
         uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
     }
 
@@ -122,8 +180,16 @@ def Xform "Root"
         prepend references = @NBSportShoes.usdz@
     )
     {
-        float3 xformOp:scale = (0.002, 0.002, 0.002)
+        float3 xformOp:scale = (1, 1, 1)
         uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+
+        over "Meshes"
+        {
+            quatf xformOp:orient = (1, 0, 0, 0)
+            float3 xformOp:scale = (49.99999, 49.999992, 49.999996)
+            float3 xformOp:translate = (0, 0, 0)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+        }
     }
 
     def "OldManShoes" (
@@ -131,7 +197,7 @@ def Xform "Root"
         prepend references = @OldManShoes.usdz@
     )
     {
-        float3 xformOp:scale = (0.015, 0.015, 0.015)
+        float3 xformOp:scale = (4.9999995, 4.9999995, 4.9999995)
         uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
     }
 
@@ -144,8 +210,16 @@ def Xform "Root"
     )
     {
         quatf xformOp:orient = (0.8660254, 0, 0.49999997, 0)
-        float3 xformOp:scale = (0.002, 0.002, 0.002)
+        float3 xformOp:scale = (1, 1, 1)
         uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+
+        over "Meshes"
+        {
+            quatf xformOp:orient = (1, 0, 0, 0)
+            float3 xformOp:scale = (1.0000004, 1.0000002, 1.0000001)
+            float3 xformOp:translate = (0, 0, 0)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+        }
     }
 
     def "RedHighHeelShoes" (
@@ -153,7 +227,7 @@ def Xform "Root"
         prepend references = @RedHighHeelShoes.usdz@
     )
     {
-        float3 xformOp:scale = (0.006, 0.006, 0.006)
+        float3 xformOp:scale = (2, 2, 2)
         uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
     }
 
@@ -162,8 +236,16 @@ def Xform "Root"
         prepend references = @SkateShoes.usdz@
     )
     {
-        float3 xformOp:scale = (0.002, 0.002, 0.002)
+        float3 xformOp:scale = (1, 1, 1)
         uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+
+        over "Meshes"
+        {
+            quatf xformOp:orient = (1, 0, 0, 0)
+            float3 xformOp:scale = (49.99999, 49.99999, 49.99999)
+            float3 xformOp:translate = (0, 0, 0)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+        }
     }
 
     def "WinterShoe" (
@@ -171,7 +253,7 @@ def Xform "Root"
         prepend references = @WinterShoe.usdz@
     )
     {
-        float3 xformOp:scale = (0.005, 0.005, 0.005)
+        float3 xformOp:scale = (1, 1, 1)
         uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
     }
 
@@ -184,7 +266,7 @@ def Xform "Root"
     )
     {
         quatf xformOp:orient = (0.92387956, 0, 0.38268337, 0)
-        float3 xformOp:scale = (0.018, 0.018, 0.018)
+        float3 xformOp:scale = (4.9999995, 4.9999995, 4.9999995)
         uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
     }
 
@@ -197,11 +279,16 @@ def Xform "Root"
     )
     {
         quatf xformOp:orient = (0.9396926, 0, 0.34202012, 0)
-        float3 xformOp:scale = (0.001, 0.001, 0.001)
+        float3 xformOp:scale = (1, 1, 1)
         uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
 
         over "Meshes"
         {
+            quatf xformOp:orient = (1, 0, 0, 0)
+            float3 xformOp:scale = (49.999996, 49.999985, 49.999992)
+            float3 xformOp:translate = (0, 0, 0)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+
             over "Sketchfab_model" (
                 customData = {
                     float3 rotationEulerHint = (-1.5707965, 1.7881393e-7, 3.937088e-8)
@@ -209,7 +296,7 @@ def Xform "Root"
             )
             {
                 quatf xformOp:orient = (0.7071067, -0.7071068, 5.202548e-8, 7.986491e-8)
-                float3 xformOp:scale = (0.049999986, 0.049999986, 0.04999999)
+                float3 xformOp:scale = (0.01999999, 0.019999988, 0.019999988)
                 float3 xformOp:translate = (0, 0, 0)
                 uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
             }
@@ -221,7 +308,7 @@ def Xform "Root"
         prepend references = @militaryShoes.usdz@
     )
     {
-        float3 xformOp:scale = (0.03, 0.03, 0.03)
+        float3 xformOp:scale = (9.999999, 9.999999, 9.999999)
         uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
     }
 
@@ -230,8 +317,16 @@ def Xform "Root"
         prepend references = @oldFashionSportShoes.usdz@
     )
     {
-        float3 xformOp:scale = (0.003, 0.003, 0.003)
+        float3 xformOp:scale = (1, 1, 1)
         uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+
+        over "Meshes"
+        {
+            quatf xformOp:orient = (1, 0, 0, 0)
+            float3 xformOp:scale = (9.999999, 9.999999, 9.999999)
+            float3 xformOp:translate = (0, 0, 0)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+        }
     }
 
     def "WoodShoes_scene" (
@@ -243,7 +338,7 @@ def Xform "Root"
     )
     {
         quatf xformOp:orient = (0.81915206, 0, 0.5735764, 0)
-        float3 xformOp:scale = (0.03, 0.03, 0.03)
+        float3 xformOp:scale = (99.99998, 99.999985, 99.99999)
     }
 
     def "WoodShoes" (
@@ -255,7 +350,7 @@ def Xform "Root"
     )
     {
         quatf xformOp:orient = (0.81915206, 0, 0.5735764, 0)
-        float3 xformOp:scale = (0.03, 0.03, 0.03)
+        float3 xformOp:scale = (9.999999, 9.999999, 9.999999)
         uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
     }
 }

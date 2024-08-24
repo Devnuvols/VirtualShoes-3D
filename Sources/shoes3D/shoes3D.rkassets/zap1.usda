@@ -1,0 +1,64 @@
+#usda 1.0
+(
+    customLayerData = {
+        string creator = "Reality Composer Pro Version 1.0 (409.100.15)"
+    }
+    defaultPrim = "zap1"
+    metersPerUnit = 1
+    upAxis = "Y"
+)
+
+def Xform "zap1"
+{
+    quatf xformOp:orient = (1, 0, 0, 0)
+    float3 xformOp:scale = (1, 1, 1)
+    float3 xformOp:translate = (0, 0, 0)
+    uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+
+    def "ArntShoes_1" (
+        active = true
+        prepend references = @ArntShoes.usdz@
+    )
+    {
+        float3 xformOp:scale = (0.01, 0.01, 0.01)
+        float3 xformOp:translate = (0, 2.9802328e-7, 0)
+        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+
+        over "Materials"
+        {
+            over "ShoesEtniesCallicut"
+            {
+                token outputs:surface.connect = </zap1/ArntShoes_1/Materials/ShoesEtniesCallicut/pbr_shader.outputs:surface>
+
+                over "pbr_shader"
+                {
+                    color3f inputs:diffuseColor.connect = </zap1/ArntShoes_1/Materials/ShoesEtniesCallicut/tex_base.outputs:rgb>
+                    float inputs:metallic.connect = </zap1/ArntShoes_1/Materials/ShoesEtniesCallicut/tex_metallic.outputs:r>
+                    normal3f inputs:normal.connect = </zap1/ArntShoes_1/Materials/ShoesEtniesCallicut/tex_normal.outputs:rgb>
+                    float inputs:roughness.connect = </zap1/ArntShoes_1/Materials/ShoesEtniesCallicut/tex_roughness.outputs:r>
+                }
+
+                over "tex_base"
+                {
+                    float2 inputs:st.connect = </zap1/ArntShoes_1/Materials/ShoesEtniesCallicut/uvset0.outputs:result>
+                }
+
+                over "tex_metallic"
+                {
+                    float2 inputs:st.connect = </zap1/ArntShoes_1/Materials/ShoesEtniesCallicut/uvset0.outputs:result>
+                }
+
+                over "tex_roughness"
+                {
+                    float2 inputs:st.connect = </zap1/ArntShoes_1/Materials/ShoesEtniesCallicut/uvset0.outputs:result>
+                }
+
+                over "tex_normal"
+                {
+                    float2 inputs:st.connect = </zap1/ArntShoes_1/Materials/ShoesEtniesCallicut/uvset0.outputs:result>
+                }
+            }
+        }
+    }
+}
+

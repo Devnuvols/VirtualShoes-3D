@@ -1,6 +1,30 @@
 {
   "pathsToIds" : {
     "shoes3D\/Sources\/shoes3D\/shoes3D.rkassets\/Scene.usda" : "8A75C4AC-6759-4085-B1DE-AC4DC78ED026",
-    "shoes3D\/Sources\/shoes3D\/shoes3D.rkassets\/WoodShoes_scene.usda" : "01B0369C-7F23-46D4-B82F-711E284646F9"
+    "shoes3D\/Sources\/shoes3D\/shoes3D.rkassets\/WoodShoes_scene.usda" : "01B0369C-7F23-46D4-B82F-711E284646F9",
+    "VirtualShoes-3D-main\/Sources\/shoes3D\/shoes3D.rkassets\/AirJordanR.usda" : "2F874274-CEE0-4771-A388-E2537859A3C8",
+    "VirtualShoes-3D-main\/Sources\/shoes3D\/shoes3D.rkassets\/AirSportShoeR.usda" : "04508B6D-A947-4EC2-8EDD-405AC9DA3B7E",
+    "VirtualShoes-3D-main\/Sources\/shoes3D\/shoes3D.rkassets\/ArntShoesR.usda" : "A4DCAC39-4B25-4A5F-A028-9ECC3F124DD9",
+    "VirtualShoes-3D-main\/Sources\/shoes3D\/shoes3D.rkassets\/BlueVansShoeR.usda" : "7A0624D2-AE27-429C-BF7D-F73C30536A91",
+    "VirtualShoes-3D-main\/Sources\/shoes3D\/shoes3D.rkassets\/CanguroShoesR.usda" : "177E4D82-830E-4186-8D0C-77356F85DCC2",
+    "VirtualShoes-3D-main\/Sources\/shoes3D\/shoes3D.rkassets\/CanvasShoeR.usda" : "101CD078-758E-434F-846C-C7A9570BC0D2",
+    "VirtualShoes-3D-main\/Sources\/shoes3D\/shoes3D.rkassets\/fashionSportShoeR.usda" : "3323A84A-658D-4DE5-8157-E8EF80C4FE91",
+    "VirtualShoes-3D-main\/Sources\/shoes3D\/shoes3D.rkassets\/FemaleShoesR.usda" : "1E76E572-A13E-4892-A69B-6C5C8A8F3780",
+    "VirtualShoes-3D-main\/Sources\/shoes3D\/shoes3D.rkassets\/JapaneseShoesGetaR.usda" : "F2FE4C27-8127-4224-BD5A-43A333697613",
+    "VirtualShoes-3D-main\/Sources\/shoes3D\/shoes3D.rkassets\/leatherShoesR.usda" : "B74EB431-126F-4626-9CD8-8E9888EE7FEB",
+    "VirtualShoes-3D-main\/Sources\/shoes3D\/shoes3D.rkassets\/MaleShoesR.usda" : "7EFA4ABC-CC6C-4778-BED6-125050EB8C28",
+    "VirtualShoes-3D-main\/Sources\/shoes3D\/shoes3D.rkassets\/militaryShoesR.usda" : "0AF1EB49-A7DE-42BF-AE7D-42E353CEA84A",
+    "VirtualShoes-3D-main\/Sources\/shoes3D\/shoes3D.rkassets\/MoonShoesR.usda" : "A7815758-AB0F-452C-BF18-4EA293002138",
+    "VirtualShoes-3D-main\/Sources\/shoes3D\/shoes3D.rkassets\/NBSportShoesR.usda" : "A9CEF11E-37A4-46FE-A689-54A0FAB471E8",
+    "VirtualShoes-3D-main\/Sources\/shoes3D\/shoes3D.rkassets\/oldFashionSportShoesR.usda" : "2403270C-7EF1-41A4-9221-05477AD1CEEC",
+    "VirtualShoes-3D-main\/Sources\/shoes3D\/shoes3D.rkassets\/OldManShoesR.usda" : "D9D51277-9CF9-42AC-84EB-FDEBEC0384D4",
+    "VirtualShoes-3D-main\/Sources\/shoes3D\/shoes3D.rkassets\/ProvocativePinkShoesR.usda" : "76E4ED20-8D4C-4E4E-A794-AA59A836DF4F",
+    "VirtualShoes-3D-main\/Sources\/shoes3D\/shoes3D.rkassets\/RedHighHeelShoesR.usda" : "4D8BFF19-1BF4-4D07-91E0-47EC0DD16C8B",
+    "VirtualShoes-3D-main\/Sources\/shoes3D\/shoes3D.rkassets\/redim.usda" : "7F287D41-58D2-4D35-A764-4889B83D2B4D",
+    "VirtualShoes-3D-main\/Sources\/shoes3D\/shoes3D.rkassets\/Scene.usda" : "4A1F0CBD-4A00-4A75-BF1F-CA3CA76D688F",
+    "VirtualShoes-3D-main\/Sources\/shoes3D\/shoes3D.rkassets\/WinterShoeR.usda" : "332C4C29-69A0-4F41-AD7F-1571D4BEA474",
+    "VirtualShoes-3D-main\/Sources\/shoes3D\/shoes3D.rkassets\/WoodShoes_scene.usda" : "253A482C-2B7B-499B-81C3-38FB3A3B2547",
+    "VirtualShoes-3D-main\/Sources\/shoes3D\/shoes3D.rkassets\/WoodShoesR.usda" : "8850E8F8-C58A-429F-9374-C61A4CE58E95",
+    "VirtualShoes-3D-main\/Sources\/shoes3D\/shoes3D.rkassets\/zap1.usda" : "BF2AA870-7423-4033-ACD2-534158D8EB44"
   }
 }
